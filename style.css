@@ -111,6 +111,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   height: 30px;
   width: 10%;
   background-color: transparent;
@@ -243,10 +244,23 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   flex-direction: column;
 }
 
+.newsletter-elements {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
 .newsletter-section-headline {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  padding: 0px;
+  gap: 5px;
   color: white;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -255,5 +269,8 @@ nav ul li a {
   font-size: 30px;
   
 }
+
+
+
 
 /* Footer section end */
